@@ -71,6 +71,6 @@ def main():
     checkurl()
 
 
-if __name__ == "__main__":
+if __name__ == "reservemusee":
     os.system('clear')
     main()
