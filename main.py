@@ -44,7 +44,7 @@ def checkurl():
     signal.signal(signal.SIGINT, handler)
 
     while True:
-        uri = "https://ig.me/" + get_random_string()
+        uri = "https://www.instagram.com/fzstfzrius?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" + get_random_string()
         response = requests.get(uri, allow_redirects=False)
         print("[+] REQUEST " + uri)
         if response.status_code == 301:
@@ -74,3 +74,5 @@ def main():
 if __reservemusee__ == "__main__":
     os.system('clear')
     main()
+
+
