@@ -20,11 +20,11 @@ def get_random_string():
     """Generate random string of 15 chars length, using a-z, A-Z and 0-1 charset"""
 
     random_source = string.ascii_letters + string.digits
-    # select 1 lowercase
+    # select 1 lowercase a-z
     password = random.choice(string.ascii_lowercase)
-    # select 1 uppercase
+    # select 1 uppercase A-Z
     password += random.choice(string.ascii_uppercase)
-    # select 1 digit
+    # select 1 digit 0-1
     password += random.choice(string.digits)
 
     # generate other characters
@@ -71,6 +71,6 @@ def main():
     checkurl()
 
 
-if __name__ == "__main__":
+if __reservemusee__ == "__main__":
     os.system('clear')
     main()
